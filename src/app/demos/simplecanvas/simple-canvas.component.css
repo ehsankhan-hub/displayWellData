@@ -1,0 +1,80 @@
+.simple-canvas-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+::ng-deep .template-tabs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+::ng-deep .template-tabs .mat-mdc-tab-body-wrapper {
+  flex: 1;
+  min-height: 0;
+}
+
+::ng-deep .template-tabs .mat-mdc-tab-body {
+  height: 100%;
+}
+
+::ng-deep .template-tabs .mat-mdc-tab-body-content {
+  height: 100%;
+  overflow: hidden;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.footer-bar {
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: stretch;
+  background: #f0f0f0;
+  border-top: 2px solid #ccc;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px 12px;
+  border-right: 1px solid #ddd;
+  min-width: 80px;
+}
+
+.footer-item.highlight {
+  background: #fff8e1;
+}
+
+.footer-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+
+.footer-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+  white-space: nowrap;
+}
+
+.footer-unit {
+  font-size: 10px;
+  color: #888;
+  white-space: nowrap;
+}

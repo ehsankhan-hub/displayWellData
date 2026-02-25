@@ -1,0 +1,4 @@
+{
+  "/api/getLogHeaders/:well/:wellbore": "/logHeaders?@uidWell=:well&@uidWellbore=:wellbore",
+  "/logData": "/logData"
+}

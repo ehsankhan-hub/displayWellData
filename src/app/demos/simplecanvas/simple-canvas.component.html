@@ -1,0 +1,78 @@
+<div class="simple-canvas-container">
+  <mat-tab-group class="template-tabs" animationDuration="0ms">
+    <mat-tab label="MWD Depth">
+      <div class="canvas-container">
+        <app-mwd-density 
+          [well]="'HWYH_1389'"
+          [wellbore]="'HWYH_1389_0'"
+          [lstOfTrack]="mwdTracks"
+          [lstOfTrack1]="densityTracks">
+        </app-mwd-density>
+      </div>
+    </mat-tab>
+    <mat-tab label="MWD_Time">
+      <div class="canvas-container">
+        <app-mwd-time
+          [well]="'HWYH_1389'"
+          [wellbore]="'HWYH_1389_0'">
+        </app-mwd-time>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+  <div class="footer-bar">
+    <div class="footer-item">
+      <span class="footer-label">ABSF_508_0</span>
+      <span class="footer-value">ADC-60</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">Hole Depth</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">ft</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">Bit Depth</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">ft</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">Lag Depth</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">ft</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">ROP</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">ft/h</span>
+    </div>
+    <div class="footer-item highlight">
+      <span class="footer-label">Total Gas</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">ppm</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">WOB</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">klbf</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">RPM</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">RPM</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">Torque</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">ft.lb</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">Block Position</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">ft</span>
+    </div>
+    <div class="footer-item">
+      <span class="footer-label">SPM1</span>
+      <span class="footer-value">No Data</span>
+      <span class="footer-unit">SPM</span>
+    </div>
+  </div>
+</div>
