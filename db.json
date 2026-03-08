@@ -2097,11 +2097,11 @@
       "endDateTimeIndex": "2026-02-04T11:53:15Z",
       "startIndex": {
         "@uom": "ms",
-        "#text": "1738602795000"
+        "#text": "1738692795000"
       },
       "endIndex": {
         "@uom": "ms",
-        "#text": "1738689195000"
+        "#text": "1739254395000"
       },
       "indexCurve": "TIME",
       "indexType": "time",
@@ -2166,8 +2166,8 @@
       "logName": "MWD Time Log",
       "indexType": "TIME",
       "indexCurve": "TIME",
-      "startIndex": "1738602795000",
-      "endIndex": "1738689195000",
+      "startIndex": "1738692795000",
+      "endIndex": "1739254395000",
       "indexUnit": "ms",
       "data": [
        "1738692795000,53.1,15.2,0.158,2.39,11.8,14.9,91",
